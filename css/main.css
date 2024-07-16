@@ -27,6 +27,9 @@ h6,
 p {
   margin: 0;
 }
+button {
+  cursor: pointer;
+}
 .page {
   margin: 0 auto;
   padding: 0;
@@ -63,4 +66,88 @@ p {
   font-size: 24px;
   line-height: 32.69px;
   color: #ffffff;
+}
+.header__nav {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.header__list li a {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #ffffff;
+}
+.header__list li a.active {
+  color: #ffc13a;
+}
+.header__search {
+  width: 280px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
+}
+.header__search-button {
+  width: 22px;
+  height: 24px;
+  background: transparent;
+  border: none;
+}
+input {
+  outline: none;
+}
+::-webkit-input-placeholder {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #ffffff;
+}
+:-moz-placeholder {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #ffffff;
+}
+::-moz-placeholder {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #ffffff;
+}
+:-ms-input-placeholder {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #ffffff;
+}
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.header__search-input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  color: #ffffff;
+  border: none;
 }
