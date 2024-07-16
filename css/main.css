@@ -194,6 +194,7 @@ input:focus:-ms-input-placeholder {
 .main-contact__wrapper {
   width: 100%;
   display: flex;
+  gap: 136px;
   padding-top: 64px;
   padding-bottom: 120px;
   box-sizing: border-box;
@@ -326,4 +327,36 @@ textarea:focus:-ms-input-placeholder {
   color: #00043c;
   display: inline;
   border-bottom: 0.5px solid #00043c;
+}
+.main-contact__connection {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.main-contact__connection h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #00043c;
+  letter-spacing: 0.02rem;
+}
+.main-contact__item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.main-contact__item span {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #00043c;
+}
+.main-contact__item a {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #00043c;
 }
