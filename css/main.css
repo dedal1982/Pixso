@@ -29,6 +29,7 @@ p {
 }
 button {
   cursor: pointer;
+  border: none;
 }
 .page {
   margin: 0 auto;
@@ -359,4 +360,64 @@ textarea:focus:-ms-input-placeholder {
   font-size: 32px;
   line-height: 38.4px;
   color: #00043c;
+}
+/*---mailing---*/
+.mailing {
+  width: 100%;
+  background: #ffc13a;
+}
+.mailing__wrapper {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 48px;
+  box-sizing: border-box;
+}
+.mailing__inner {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.mailing__inner h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #00043c;
+}
+.mailing__form {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin: 20px auto 12px;
+}
+.mailing__input {
+  width: 488px;
+  height: 48px;
+  border-radius: 5px;
+  padding: 12px;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+.mailing__button {
+  width: 280px;
+  height: 48px;
+  border-radius: 5px;
+  background: #00043c;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #ffffff;
+}
+.mailing__confidentiality {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.4px;
+  color: #00043c;
+}
+.mailing__confidentiality a {
+  color: #00043c;
+  display: inline;
+  border-bottom: 0.5px solid #00043c;
 }
