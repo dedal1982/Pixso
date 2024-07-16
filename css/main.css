@@ -531,3 +531,17 @@ textarea:focus:-ms-input-placeholder {
   display: inline;
   border-bottom: 0.5px solid #00043c;
 }
+.footer__author {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: auto;
+}
+.footer__author a,
+.footer__author span {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #ffffff;
+}
