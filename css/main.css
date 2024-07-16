@@ -185,3 +185,14 @@ input:focus:-ms-input-placeholder {
   color: #ffffff;
   text-transform: uppercase;
 }
+/*---main-contact---*/
+.main-contact {
+  width: 100%;
+}
+.main-contact__wrapper {
+  width: 100%;
+  display: flex;
+  padding-top: 64px;
+  padding-bottom: 120px;
+  box-sizing: border-box;
+}
