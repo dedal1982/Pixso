@@ -102,31 +102,37 @@ button {
   background: transparent;
   border: none;
 }
-input {
+input,
+textarea {
   outline: none;
+  border: none;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.79px;
 }
-::-webkit-input-placeholder {
+.header__search-input::-webkit-input-placeholder {
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21.79px;
   color: #ffffff;
 }
-:-moz-placeholder {
+.header__search-input:-moz-placeholder {
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21.79px;
   color: #ffffff;
 }
-::-moz-placeholder {
+.header__search-input::-moz-placeholder {
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21.79px;
   color: #ffffff;
 }
-:-ms-input-placeholder {
+.header__search-input:-ms-input-placeholder {
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -149,10 +155,6 @@ input:focus:-ms-input-placeholder {
   width: 100%;
   height: 100%;
   background: transparent;
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 21.79px;
   color: #ffffff;
   border: none;
 }
@@ -195,4 +197,109 @@ input:focus:-ms-input-placeholder {
   padding-top: 64px;
   padding-bottom: 120px;
   box-sizing: border-box;
+}
+.form-contact {
+  width: 488px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-contact h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #00043c;
+  letter-spacing: 0.04rem;
+  margin-bottom: 20px;
+}
+.form-contact__input {
+  width: 100%;
+  height: 48px;
+  background: #eff5fb;
+  border-radius: 5px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+.form-contact__input::-webkit-input-placeholder {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #00043c;
+}
+.form-contact__input:-moz-placeholder {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #00043c;
+}
+.form-contact__input::-moz-placeholder {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #00043c;
+}
+.form-contact__input:-ms-input-placeholder {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #00043c;
+}
+.form-contact__textarea {
+  width: 100%;
+  height: 120px;
+  border-radius: 5px;
+  background: #eff5fb;
+  padding: 12px;
+  box-sizing: border-box;
+  resize: none;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #00043c;
+}
+.form-contact__textarea::-webkit-input-placeholder {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #00043c;
+}
+.form-contact__textarea:-moz-placeholder {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #00043c;
+}
+.form-contact__textarea::-moz-placeholder {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #00043c;
+}
+.form-contact__textarea:-ms-input-placeholder {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #00043c;
+}
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+textarea:focus:-ms-input-placeholder {
+  color: transparent;
 }
