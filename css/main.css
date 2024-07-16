@@ -66,16 +66,17 @@ button {
   font-size: 24px;
   line-height: 32.69px;
   color: #ffffff;
+  letter-spacing: 0.04rem;
 }
 .header__nav {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 24px;
 }
 .header__list {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 26px;
 }
 .header__list li a {
   font-family: "Noto Sans", sans-serif;
@@ -154,4 +155,12 @@ input:focus:-ms-input-placeholder {
   line-height: 21.79px;
   color: #ffffff;
   border: none;
+}
+.header__social {
+  width: 40px;
+  height: 40px;
+}
+.header__social img {
+  width: 100%;
+  height: auto;
 }
