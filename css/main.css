@@ -421,3 +421,16 @@ textarea:focus:-ms-input-placeholder {
   display: inline;
   border-bottom: 0.5px solid #00043c;
 }
+/*---footer---*/
+.footer {
+  width: 100%;
+  background: #00043c;
+}
+.footer__wrapper {
+  width: 100%;
+  padding: 72px 75px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
