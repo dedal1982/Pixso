@@ -164,3 +164,24 @@ input:focus:-ms-input-placeholder {
   width: 100%;
   height: auto;
 }
+/*---top-contact---*/
+.top-contact {
+  width: 100%;
+  background: url(../images/top-contact.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-contact__wrapper {
+  width: 100%;
+  padding-top: 78px;
+  padding-bottom: 28px;
+  box-sizing: border-box;
+}
+.top-contact__wrapper h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 65.38px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
