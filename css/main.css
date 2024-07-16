@@ -504,7 +504,7 @@ textarea:focus:-ms-input-placeholder {
 }
 .footer__list a {
   font-family: "Noto Sans", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19.2px;
   color: #ffffff;
