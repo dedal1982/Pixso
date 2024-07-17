@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/index.css" />
     <title>Главная</title>
   </head>
@@ -47,7 +51,45 @@
         </div>
       </header>
       <main>
-        <section class="promo"></section>
+        <section class="promo">
+          <div class="swiper promo__swiper">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="promo__slide">
+                  <div class="promo__text">
+                    <span>Отдел информационных технологий</span>
+                    <h1>СОПРОВОЖДЕНИЕ 1С</h1>
+                  </div>
+                  <img src="./images/1c.png" alt="1C" />
+                </div>
+              </div>
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="promo__slide">
+                  <div class="promo__text">
+                    <span>Отдел информационных технологий</span>
+                    <h1>МОНИТОРИНГ АВТОТРАНСПОРТА</h1>
+                  </div>
+                  <img src="./images/monit.png" alt="1C" />
+                </div>
+              </div>
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="promo__slide">
+                  <div class="promo__text">
+                    <span>Отдел информационных технологий</span>
+                    <h1>Автоматизация производства</h1>
+                  </div>
+                  <img src="./images/automation.png" alt="1C" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination promo__pagination"></div>
+            <div class="swiper-button-prev promo__prev"></div>
+            <div class="swiper-button-next promo__next"></div>
+          </div>
+        </section>
       </main>
       <footer class="footer">
         <div class="container">
@@ -151,6 +193,8 @@
         </div>
       </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
     <script src="./js/index.js"></script>
   </body>
 </html>
