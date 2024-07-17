@@ -1,7 +1,7 @@
 const swiper = new Swiper(".promo__swiper", {
   // Optional parameters
   direction: "horizontal",
-  loop: false,
+  loop: true,
 
   // If we need pagination
   pagination: {
