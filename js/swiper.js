@@ -6,6 +6,7 @@ const swiper = new Swiper(".promo__swiper", {
   // If we need pagination
   pagination: {
     el: ".promo__pagination",
+    clickable: true,
   },
 
   // Navigation arrows
