@@ -145,6 +145,7 @@
   text-transform: uppercase;
 }
 .advantages__inner {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, minmax(auto, 405.33px));
 }
@@ -227,10 +228,48 @@
   color: #00043c;
   text-transform: uppercase;
 }
-.achievements__title h4 {
+.achievements__title h3 {
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 28.8px;
+  color: #00043c;
+}
+.achievements__inner {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(auto, 384px));
+  gap: 32px;
+}
+.achievements__item {
+  width: 100%;
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 32px 0px #0000000a;
+}
+.achievements__item img {
+  width: 384px;
+  height: 252px;
+}
+.achievements__text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px 25px 20px 20px;
+  box-sizing: border-box;
+}
+.achievements__text h4 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.4px;
+  color: #00043c;
+}
+.achievements__text p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
   color: #00043c;
 }
