@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
-    <title>Главная</title>
+    <title>Контакты</title>
   </head>
   <body>
     <div class="page">
@@ -15,7 +15,7 @@
             <div class="header__nav">
               <ul class="header__list">
                 <li>
-                  <a href="#" class="active">Главная</a>
+                  <a href="index.html">Главная</a>
                 </li>
                 <li>
                   <a href="#">О нас</a>
@@ -24,7 +24,7 @@
                   <a href="#">Проекты</a>
                 </li>
                 <li>
-                  <a href="contact.html">Контакты</a>
+                  <a href="#" class="active">Контакты</a>
                 </li>
               </ul>
               <div class="header__search">
@@ -47,7 +47,82 @@
         </div>
       </header>
       <main>
-        <section class="promo"></section>
+        <section class="top-contact">
+          <div class="container">
+            <div class="top-contact__wrapper">
+              <h1>Контакты</h1>
+            </div>
+          </div>
+        </section>
+        <section class="main-contact">
+          <div class="container">
+            <div class="main-contact__wrapper">
+              <form class="form-contact" action="#">
+                <h2>Задать вопрос:</h2>
+                <input
+                  class="form-contact__input"
+                  type="text"
+                  placeholder="Имя"
+                />
+                <input
+                  class="form-contact__input"
+                  type="email"
+                  placeholder="E-mail"
+                />
+                <input
+                  class="form-contact__input"
+                  type="text"
+                  placeholder="Тема"
+                />
+                <textarea
+                  class="form-contact__textarea"
+                  name=""
+                  id=""
+                  placeholder="Текст вопроса"
+                ></textarea>
+                <button class="form-contact__button">Отправить</button>
+                <span class="form-contact__confidentiality">
+                  Нажимая на кнопку «Отправить», подтверждаю свое согласие<br />
+                  с положениями <a href="#">политики конфиденциальности</a>
+                </span>
+              </form>
+              <div class="main-contact__connection">
+                <h2>Связаться с нами:</h2>
+                <div class="main-contact__item">
+                  <span>Наш телефон:</span>
+                  <a href="#">+7 (912) 937-29-84</a>
+                  <span
+                    >Режим работы: 8:30–18:00 (МСК+2), перерыв 12:30–14:00,
+                    Пн–Пт</span
+                  >
+                </div>
+                <div class="main-contact__item">
+                  <span>Наша почта:</span>
+                  <a href="#">makarovev@g-ds.ru</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mailing">
+          <div class="mailing__wrapper">
+            <div class="mailing__inner">
+              <h2>Рассылка новостей</h2>
+              <form class="mailing__form" action="#">
+                <input
+                  class="mailing__input"
+                  type="email"
+                  placeholder="Ваш E-mail"
+                />
+                <button class="mailing__button">Подписаться</button>
+              </form>
+              <span class="mailing__confidentiality">
+                Нажимая на кнопку «Отправить», подтверждаю свое согласие с
+                положениями <a href="#">политики конфиденциальности</a>
+              </span>
+            </div>
+          </div>
+        </section>
       </main>
       <footer class="footer">
         <div class="container">
