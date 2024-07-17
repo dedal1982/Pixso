@@ -2,6 +2,10 @@ const swiper = new Swiper(".promo__swiper", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
+  autoplay: {
+    delay: 5000,
+  },
+  effect: "fade",
 
   // If we need pagination
   pagination: {
