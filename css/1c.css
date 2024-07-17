@@ -211,6 +211,9 @@
   gap: 32px;
 }
 .achievements__title {
+  max-width: 904px;
+  width: 100%;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -225,9 +228,6 @@
   text-transform: uppercase;
 }
 .achievements__title h4 {
-  max-width: 904px;
-  width: 100%;
-  text-align: center;
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 24px;
