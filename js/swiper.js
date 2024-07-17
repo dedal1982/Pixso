@@ -3,7 +3,7 @@ const swiper = new Swiper(".promo__swiper", {
   direction: "horizontal",
   loop: true,
   autoplay: {
-    delay: 5000,
+    delay: 4000,
   },
   effect: "fade",
 
