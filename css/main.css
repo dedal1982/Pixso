@@ -76,6 +76,7 @@ ul {
   }
   .mobile-menu_open {
     width: 252px;
+    border-top: 1px solid #ffffff;
   }
   .mobile-menu__wrapper {
     display: flex;
@@ -272,6 +273,7 @@ input:focus:-ms-input-placeholder {
   }
   .header__button.header__button_open {
     background: url(../icons/menuX.png);
+    z-index: 5;
   }
 }
 /*---top-contact---*/
