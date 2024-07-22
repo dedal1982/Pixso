@@ -10,7 +10,9 @@ links.forEach((link) => {
 
 //мобильное меню
 const headerBurger = document.querySelector(".header__button");
+const mobileMenu = document.querySelector(".mobile-menu");
 
 headerBurger.addEventListener("click", () => {
   headerBurger.classList.toggle("header__button_open");
+  mobileMenu.classList.toggle("mobile-menu_open");
 });
