@@ -172,6 +172,11 @@ input:focus:-ms-input-placeholder {
   width: 100%;
   height: auto;
 }
+.header__button {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+}
 /*---top-contact---*/
 .top-contact {
   width: 100%;
