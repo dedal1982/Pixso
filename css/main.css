@@ -297,6 +297,16 @@ input:focus:-ms-input-placeholder {
   color: #ffffff;
   text-transform: uppercase;
 }
+@media (max-width: 850px) {
+  .top-contact__wrapper {
+    padding-top: 82px;
+    padding-bottom: 24px;
+  }
+  .top-contact__wrapper h1 {
+    font-size: 40px;
+    line-height: 54.48px;
+  }
+}
 /*---main-contact---*/
 .main-contact {
   width: 100%;
