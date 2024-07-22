@@ -319,6 +319,13 @@ input:focus:-ms-input-placeholder {
   padding-bottom: 120px;
   box-sizing: border-box;
 }
+@media (max-width: 850px) {
+  .main-contact__wrapper {
+    padding-top: 48px;
+    padding-bottom: 100px;
+    gap: 24px;
+  }
+}
 .form-contact {
   width: 488px;
   display: flex;
@@ -333,6 +340,13 @@ input:focus:-ms-input-placeholder {
   color: #00043c;
   letter-spacing: 0.04rem;
   margin-bottom: 20px;
+}
+@media (max-width: 850px) {
+  .form-contact h2 {
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-bottom: 4px;
+  }
 }
 .form-contact__input {
   width: 100%;
@@ -443,6 +457,15 @@ textarea:focus:-ms-input-placeholder {
   line-height: 16.8px;
   color: #00043c;
 }
+@media (max-width: 850px) {
+  .form-contact__confidentiality {
+    font-size: 12px;
+    line-height: 14.4px;
+  }
+  .form-contact__confidentiality br {
+    display: none;
+  }
+}
 .form-contact__confidentiality a {
   color: #00043c;
   display: inline;
@@ -453,6 +476,11 @@ textarea:focus:-ms-input-placeholder {
   flex-direction: column;
   gap: 40px;
 }
+@media (max-width: 850px) {
+  .main-contact__connection {
+    gap: 24px;
+  }
+}
 .main-contact__connection h2 {
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
@@ -460,6 +488,12 @@ textarea:focus:-ms-input-placeholder {
   line-height: 38.4px;
   color: #00043c;
   letter-spacing: 0.02rem;
+}
+@media (max-width: 850px) {
+  .main-contact__connection h2 {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
 }
 .main-contact__item {
   display: flex;
@@ -479,6 +513,12 @@ textarea:focus:-ms-input-placeholder {
   font-size: 32px;
   line-height: 38.4px;
   color: #00043c;
+}
+@media (max-width: 850px) {
+  .main-contact__item a {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
 }
 /*---mailing---*/
 .mailing {
