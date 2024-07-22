@@ -55,6 +55,18 @@ ul {
   box-sizing: border-box;
   margin: 0 auto;
 }
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 /*---мобильное меню---*/
 
 .mobile-menu {
@@ -99,12 +111,6 @@ ul {
   }
   .mobile-menu__list li:last-child {
     margin-top: 44px;
-  }
-}
-@media (max-width: 1024px) {
-  .container {
-    padding-left: 36px;
-    padding-right: 36px;
   }
 }
 .header {
