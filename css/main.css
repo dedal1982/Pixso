@@ -325,10 +325,15 @@ input:focus:-ms-input-placeholder {
   padding-bottom: 120px;
   box-sizing: border-box;
 }
+@media (max-width: 1024px) {
+  .main-contact__wrapper {
+    gap: 100px;
+  }
+}
 @media (max-width: 850px) {
   .main-contact__wrapper {
     padding-top: 48px;
-    padding-bottom: 100px;
+    padding-bottom: 95px;
     gap: 24px;
   }
 }
@@ -537,6 +542,12 @@ textarea:focus:-ms-input-placeholder {
   padding-bottom: 48px;
   box-sizing: border-box;
 }
+@media (max-width: 850px) {
+  .mailing__wrapper {
+    padding-top: 24px;
+    padding-bottom: 32px;
+  }
+}
 .mailing__inner {
   display: flex;
   flex-direction: column;
@@ -549,11 +560,23 @@ textarea:focus:-ms-input-placeholder {
   line-height: 38.4px;
   color: #00043c;
 }
+@media (max-width: 850px) {
+  .mailing__inner h2 {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+}
 .mailing__form {
   display: flex;
   align-items: center;
   gap: 32px;
   margin: 20px auto 12px;
+}
+@media (max-width: 850px) {
+  .mailing__form {
+    gap: 24px;
+    margin: 21px auto 12px;
+  }
 }
 .mailing__input {
   width: 488px;
@@ -562,6 +585,11 @@ textarea:focus:-ms-input-placeholder {
   padding: 12px;
   box-sizing: border-box;
   background: #ffffff;
+}
+@media (max-width: 850px) {
+  .mailing__input {
+    width: 456px;
+  }
 }
 .mailing__button {
   width: 280px;
@@ -573,6 +601,11 @@ textarea:focus:-ms-input-placeholder {
   font-size: 16px;
   line-height: 21.79px;
   color: #ffffff;
+}
+@media (max-width: 850px) {
+  .mailing__button {
+    width: 216px;
+  }
 }
 .mailing__confidentiality {
   font-family: "Noto Sans", sans-serif;
