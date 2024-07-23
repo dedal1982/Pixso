@@ -531,10 +531,20 @@ textarea:focus:-ms-input-placeholder {
     padding-bottom: 32px;
   }
 }
+@media (max-width: 767px) {
+  .mailing__wrapper {
+    padding: 24px 20px 32px 20px;
+  }
+}
 .mailing__inner {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+}
+@media (max-width: 767px) {
+  .mailing__inner {
+    width: 100%;
+  }
 }
 .mailing__inner h2 {
   font-family: "Noto Sans", sans-serif;
@@ -561,6 +571,12 @@ textarea:focus:-ms-input-placeholder {
     margin: 21px auto 12px;
   }
 }
+@media (max-width: 767px) {
+  .mailing__form {
+    width: 100%;
+    flex-direction: column;
+  }
+}
 .mailing__input {
   width: 488px;
   height: 48px;
@@ -572,6 +588,11 @@ textarea:focus:-ms-input-placeholder {
 @media (max-width: 850px) {
   .mailing__input {
     width: 456px;
+  }
+}
+@media (max-width: 767px) {
+  .mailing__input {
+    width: 100%;
   }
 }
 .mailing__button {
@@ -590,12 +611,22 @@ textarea:focus:-ms-input-placeholder {
     width: 216px;
   }
 }
+@media (max-width: 767px) {
+  .mailing__button {
+    width: 100%;
+  }
+}
 .mailing__confidentiality {
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 14.4px;
   color: #00043c;
+}
+@media (max-width: 767px) {
+  .mailing__confidentiality {
+    margin-top: -6px;
+  }
 }
 .mailing__confidentiality a {
   color: #00043c;
