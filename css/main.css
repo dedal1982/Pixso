@@ -640,6 +640,7 @@ textarea:focus:-ms-input-placeholder {
   display: flex;
   flex-direction: column;
   gap: 59px;
+  margin-right: 58px;
 }
 .footer__text-top {
   display: flex;
@@ -683,4 +684,32 @@ textarea:focus:-ms-input-placeholder {
   width: 40px;
   height: 40px;
   margin-top: 52px;
+}
+.footer__links {
+  display: flex;
+  margin-top: 10px;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-right: 44px;
+}
+.footer__list li:first-child {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #ffffff;
+}
+.footer__list li {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #ffffff;
+}
+.footer__links ul:last-child {
+  margin-right: 0;
+  margin-left: 44px;
 }
