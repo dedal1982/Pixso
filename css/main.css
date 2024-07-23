@@ -728,3 +728,16 @@ textarea:focus:-ms-input-placeholder {
   display: inline;
   border-bottom: 0.5px solid #00043c;
 }
+.footer__copyright {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: -47px;
+}
+.footer__copyright li {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #ffffff;
+}
