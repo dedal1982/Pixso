@@ -29,6 +29,20 @@
   left: 75px;
   bottom: 56px;
 }
+.promo__text br {
+  display: none;
+}
+@media (max-width: 1279px) {
+  .promo__text {
+    left: 35px;
+    bottom: 47px;
+  }
+}
+@media (max-width: 768px) {
+  .promo__text br {
+    display: block;
+  }
+}
 .promo__text span {
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
@@ -46,16 +60,39 @@
   color: #ffffff;
   text-transform: uppercase;
 }
+@media (max-width: 1279px) {
+  .promo__text h1 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .promo__text span {
+    font-size: 16px;
+    line-height: 21.79px;
+  }
+}
 .promo__pagination {
   width: fit-content !important;
   left: 72px !important;
   bottom: 34px !important;
+}
+@media (max-width: 1279px) {
+  .promo__pagination {
+    left: 35px !important;
+    bottom: 31px !important;
+  }
 }
 .promo__pagination span {
   width: 10px;
   height: 10px;
   margin: 8px;
   background: #ffffff;
+}
+@media (max-width: 1279px) {
+  .promo__pagination span {
+    width: 8px;
+    height: 8px;
+  }
 }
 .promo__next::after,
 .promo__prev::after {
