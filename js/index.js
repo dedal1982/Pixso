@@ -21,6 +21,7 @@ links.forEach((link) => {
 const headerBurger = document.querySelector(".header__button");
 const mobileMenu = document.querySelector(".mobile-menu");
 const headerLogo = document.querySelector(".header__logo");
+const pageScroll = document.querySelector(".page");
 
 function checkScreenWidth() {
   if (window.innerWidth < 768) {
@@ -38,6 +39,7 @@ headerBurger.addEventListener("click", () => {
   headerBurger.classList.toggle("header__button_open");
   mobileMenu.classList.toggle("mobile-menu_open");
   buttonSearchMobile.classList.toggle("active");
+  pageScroll.classList.toggle("active");
   checkScreenWidth();
 });
 

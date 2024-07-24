@@ -36,7 +36,10 @@ ul {
   margin: 0;
   padding: 0;
 }
-.page {
+.page.active {
+  overflow: hidden;
+}
+.page__content {
   margin: 0 auto;
   padding: 0;
   font-family: "Noto Sans", sans-serif;
@@ -140,6 +143,11 @@ ul {
     height: 80px;
   }
 }
+@media (max-width: 767px) {
+  .header__wrapper {
+    height: 56px;
+  }
+}
 .header__logo {
   font-family: "Noto Sans", sans-serif;
   font-weight: 900;
@@ -154,6 +162,12 @@ ul {
 @media (max-width: 1024px) {
   .header__logo {
     font-size: 20px;
+  }
+}
+@media (max-width: 76px) {
+  .header__logo {
+    font-size: 18px;
+    line-height: 32.69px;
   }
 }
 .header__nav {
