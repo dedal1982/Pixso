@@ -85,6 +85,7 @@ ul {
     height: 100dvh;
     background: #00043c;
     transition: all 0.3s ease-out;
+    z-index: 100;
   }
   .mobile-menu_open {
     width: 252px;
