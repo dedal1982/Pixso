@@ -15,14 +15,11 @@ const headerLogo = document.querySelector(".header__logo");
 
 function checkScreenWidth() {
   if (window.innerWidth < 768) {
-    headerLogo.classList.add("active");
+    headerLogo.classList.toggle("active");
   } else {
-    headerLogo.classList.remove("active");
+    headerLogo.classList.add("active");
   }
 }
-
-// Вызываем функцию при изменении размера окна
-window.addEventListener("resize", checkScreenWidth);
 
 headerBurger.addEventListener("click", () => {
   headerBurger.classList.toggle("header__button_open");
