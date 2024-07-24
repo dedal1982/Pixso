@@ -75,7 +75,7 @@ ul {
 .mobile-menu__wrapper {
   display: none;
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .mobile-menu {
     display: flex;
     overflow: hidden;
@@ -113,6 +113,11 @@ ul {
     margin-top: 44px;
   }
 }
+@media (max-width: 767px) {
+  .mobile-menu_open {
+    width: 100%;
+  }
+}
 .header {
   width: 100%;
   background: #00043c;
@@ -126,7 +131,7 @@ ul {
   align-items: center;
   justify-content: space-between;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .header__wrapper {
     height: 80px;
   }
@@ -139,7 +144,7 @@ ul {
   color: #ffffff;
   letter-spacing: 0.04rem;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .header__logo {
     font-size: 20px;
   }
@@ -159,12 +164,12 @@ ul {
   align-items: center;
   gap: 26px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .header__list {
     gap: 15px;
   }
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .header__list {
     display: none;
   }
@@ -190,7 +195,7 @@ ul {
 .header__search_mobile {
   display: none;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .header__search {
     width: 240px;
   }
@@ -308,13 +313,13 @@ input:focus:-ms-input-placeholder {
   width: 40px;
   height: 40px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .header__social {
     width: 36px;
     height: 36px;
   }
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .header__social {
     display: none;
   }
@@ -326,7 +331,7 @@ input:focus:-ms-input-placeholder {
 .header__button {
   display: none;
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .header__button {
     display: block;
     width: 40px;
@@ -359,7 +364,7 @@ input:focus:-ms-input-placeholder {
   color: #ffffff;
   text-transform: uppercase;
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .top-contact__wrapper {
     padding-top: 82px;
     padding-bottom: 24px;
@@ -386,7 +391,7 @@ input:focus:-ms-input-placeholder {
     gap: 100px;
   }
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .main-contact__wrapper {
     padding-top: 48px;
     padding-bottom: 95px;
@@ -421,7 +426,7 @@ input:focus:-ms-input-placeholder {
   letter-spacing: 0.04rem;
   margin-bottom: 20px;
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .form-contact h2 {
     font-size: 24px;
     line-height: 28.8px;
@@ -526,7 +531,7 @@ textarea:focus:-ms-input-placeholder {
   line-height: 16.8px;
   color: #00043c;
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .form-confidentiality {
     font-size: 12px;
     line-height: 14.4px;
@@ -545,7 +550,7 @@ textarea:focus:-ms-input-placeholder {
   flex-direction: column;
   gap: 40px;
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .main-contact__connection {
     gap: 24px;
   }
@@ -558,7 +563,7 @@ textarea:focus:-ms-input-placeholder {
   color: #00043c;
   letter-spacing: 0.02rem;
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .main-contact__connection h2 {
     font-size: 24px;
     line-height: 28.8px;
@@ -583,7 +588,7 @@ textarea:focus:-ms-input-placeholder {
   line-height: 38.4px;
   color: #00043c;
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .main-contact__item a {
     font-size: 24px;
     line-height: 28.8px;
@@ -600,7 +605,7 @@ textarea:focus:-ms-input-placeholder {
   padding-bottom: 48px;
   box-sizing: border-box;
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .mailing__wrapper {
     padding-top: 24px;
     padding-bottom: 32px;
@@ -628,7 +633,7 @@ textarea:focus:-ms-input-placeholder {
   line-height: 38.4px;
   color: #00043c;
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .mailing__inner h2 {
     font-size: 24px;
     line-height: 28.8px;
@@ -640,7 +645,7 @@ textarea:focus:-ms-input-placeholder {
   gap: 32px;
   margin: 20px auto 12px;
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .mailing__form {
     gap: 24px;
     margin: 21px auto 12px;
@@ -660,7 +665,7 @@ textarea:focus:-ms-input-placeholder {
   box-sizing: border-box;
   background: #ffffff;
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .mailing__input {
     width: 456px;
   }
@@ -681,7 +686,7 @@ textarea:focus:-ms-input-placeholder {
   line-height: 21.79px;
   color: #ffffff;
 }
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .mailing__button {
     width: 216px;
   }
