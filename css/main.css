@@ -144,6 +144,9 @@ ul {
   color: #ffffff;
   letter-spacing: 0.04rem;
 }
+.header__logo.active {
+  display: none;
+}
 @media (max-width: 1024px) {
   .header__logo {
     font-size: 20px;
@@ -157,6 +160,7 @@ ul {
 @media (max-width: 767px) {
   .header__nav {
     gap: 4px;
+    margin-left: auto;
   }
 }
 .header__list {
@@ -220,6 +224,9 @@ ul {
     display: block;
     background: url(../icons/search-mobile.png);
     background-repeat: no-repeat;
+  }
+  .header__search_mobile.active {
+    display: none;
   }
 }
 .header__search-button {

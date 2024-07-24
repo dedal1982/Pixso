@@ -11,10 +11,24 @@ links.forEach((link) => {
 //мобильное меню
 const headerBurger = document.querySelector(".header__button");
 const mobileMenu = document.querySelector(".mobile-menu");
+const headerLogo = document.querySelector(".header__logo");
+
+function checkScreenWidth() {
+  if (window.innerWidth < 768) {
+    headerLogo.classList.add("active");
+  } else {
+    headerLogo.classList.remove("active");
+  }
+}
+
+// Вызываем функцию при изменении размера окна
+window.addEventListener("resize", checkScreenWidth);
 
 headerBurger.addEventListener("click", () => {
   headerBurger.classList.toggle("header__button_open");
   mobileMenu.classList.toggle("mobile-menu_open");
+  buttonSearchMobile.classList.toggle("active");
+  checkScreenWidth();
 });
 
 //мобильный поиск header
