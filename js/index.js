@@ -15,9 +15,13 @@ const headerLogo = document.querySelector(".header__logo");
 
 function checkScreenWidth() {
   if (window.innerWidth < 768) {
-    headerLogo.classList.toggle("active");
+    if (headerLogo.classList.contains("active")) {
+      headerLogo.classList.remove("active");
+    } else {
+      headerLogo.classList.add("active");
+    }
   } else {
-    headerLogo.classList.add("active");
+    headerLogo.style.display = "block";
   }
 }
 
