@@ -8,6 +8,15 @@ links.forEach((link) => {
   });
 });
 
+const linksMobile = document.querySelectorAll(".mobile-menu__list a");
+
+links.forEach((link) => {
+  link.addEventListener("click", function () {
+    links.forEach((l) => l.classList.remove("active"));
+    this.classList.add("active");
+  });
+});
+
 //мобильное меню
 const headerBurger = document.querySelector(".header__button");
 const mobileMenu = document.querySelector(".mobile-menu");

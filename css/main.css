@@ -109,6 +109,9 @@ ul {
     line-height: 21.79px;
     color: #ffffff;
   }
+  .mobile-menu__list li a.active {
+    color: #ffc13a;
+  }
   .mobile-menu__list li:last-child {
     margin-top: 44px;
   }
