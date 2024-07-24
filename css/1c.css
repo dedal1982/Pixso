@@ -401,6 +401,18 @@
   align-items: center;
   gap: 32px;
 }
+@media (max-width: 1024px) {
+  .achievements__wrapper {
+    padding-top: 64px;
+    gap: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .achievements__wrapper {
+    padding-top: 48px;
+    gap: 20px;
+  }
+}
 .achievements__title {
   max-width: 904px;
   width: 100%;
@@ -410,6 +422,11 @@
   align-items: center;
   gap: 16px;
 }
+@media (max-width: 1024px) {
+  .achievements__title {
+    gap: 9px;
+  }
+}
 .achievements__title h2 {
   font-family: "Noto Sans", sans-serif;
   font-weight: 800;
@@ -418,6 +435,18 @@
   color: #00043c;
   text-transform: uppercase;
 }
+@media (max-width: 1024px) {
+  .achievements__title h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+@media (max-width: 767px) {
+  .achievements__title h2 {
+    font-size: 28px;
+    line-height: 33.6px;
+  }
+}
 .achievements__title h3 {
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
@@ -425,11 +454,29 @@
   line-height: 28.8px;
   color: #00043c;
 }
+@media (max-width: 1024px) {
+  .achievements__title h3 {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+}
+@media (max-width: 767px) {
+  .achievements__title h3 {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+}
 .achievements__inner {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, minmax(auto, 384px));
+  grid-template-columns: repeat(3, minmax(auto, 1fr));
   gap: 32px;
+}
+@media (max-width: 1023px) {
+  .achievements__inner {
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+    gap: 24px;
+  }
 }
 .achievements__item {
   width: 100%;
@@ -438,9 +485,19 @@
   flex-direction: column;
   box-shadow: 0px 0px 32px 0px #0000000a;
 }
+@media (max-width: 1024px) {
+  .achievements__item {
+    height: 502px;
+  }
+}
 .achievements__item img {
-  width: 384px;
+  width: 100%;
   height: 252px;
+}
+@media (max-width: 768px) {
+  .achievements__item img {
+    height: 220px;
+  }
 }
 .achievements__text {
   display: flex;
@@ -449,6 +506,11 @@
   padding: 20px 25px 20px 20px;
   box-sizing: border-box;
 }
+@media (max-width: 1024px) {
+  .achievements__text {
+    padding: 20px;
+  }
+}
 .achievements__text h4 {
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
@@ -456,12 +518,24 @@
   line-height: 26.4px;
   color: #00043c;
 }
+@media (max-width: 1024px) {
+  .achievements__text h4 {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+}
 .achievements__text p {
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 16.8px;
   color: #00043c;
+}
+@media (max-width: 1024px) {
+  .achievements__text p {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
 }
 /*---yellow---*/
 .yellow {
