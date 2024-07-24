@@ -16,3 +16,18 @@ headerBurger.addEventListener("click", () => {
   headerBurger.classList.toggle("header__button_open");
   mobileMenu.classList.toggle("mobile-menu_open");
 });
+
+//мобильный поиск header
+const buttonSearchMobile = document.querySelector(".header__search_mobile");
+const headerSearch = document.querySelector(".header__search");
+const buttonSearchClose = document.querySelector(".header__search-close");
+
+buttonSearchMobile.addEventListener("click", () => {
+  headerSearch.classList.add("active");
+  buttonSearchClose.classList.add("active");
+});
+
+buttonSearchClose.addEventListener("click", () => {
+  headerSearch.classList.remove("active");
+  buttonSearchClose.classList.remove("active");
+});
