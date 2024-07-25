@@ -555,10 +555,27 @@
   background: #ffc13a;
   margin-top: 64px;
 }
+@media (max-width: 767px) {
+  .yellow {
+    margin-top: 48px;
+  }
+}
 .yellow__wrapper {
   padding-top: 56px;
   padding-bottom: 56px;
   box-sizing: border-box;
+}
+@media (max-width: 1024px) {
+  .yellow__wrapper {
+    padding-top: 49px;
+    padding-bottom: 48px;
+  }
+}
+@media (max-width: 767px) {
+  .yellow__wrapper {
+    padding-top: 28px;
+    padding-bottom: 41px;
+  }
 }
 .yellow__inner {
   display: flex;
@@ -567,10 +584,28 @@
   width: fit-content;
   margin: 0 auto;
 }
+@media (max-width: 1024px) {
+  .yellow__inner {
+    gap: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .yellow__inner {
+    flex-direction: column;
+    gap: 47px;
+  }
+}
 .yellow__item {
   display: flex;
   align-items: center;
   gap: 28px;
+}
+@media (max-width: 1024px) {
+  .yellow__item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
 }
 .yellow__item h2 {
   font-family: "Noto Sans", sans-serif;
@@ -578,6 +613,19 @@
   font-size: 80px;
   line-height: 96px;
   color: #00043c;
+}
+@media (max-width: 1024px) {
+  .yellow__item h2 {
+    font-size: 64px;
+    line-height: 50px;
+    margin-left: -10px;
+  }
+}
+@media (max-width: 767px) {
+  .yellow__item h2 {
+    font-size: 56px;
+    line-height: 67.2px;
+  }
 }
 .yellow__item h3 {
   font-family: "Noto Sans", sans-serif;
@@ -587,6 +635,12 @@
   color: #00043c;
   text-transform: uppercase;
   margin-top: 20px;
+}
+@media (max-width: 1024px) {
+  .yellow__item h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
 }
 /*---gallery---*/
 .gallery {
